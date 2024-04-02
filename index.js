@@ -17,7 +17,7 @@ mongoose.connect(MONGO_URL, {
   useUnifiedTopology: true,
 });
 
-// Define schema
+// Define the schema
 const fishSchema = new mongoose.Schema({
   order_id: String,
   name: String,
